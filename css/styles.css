@@ -9,8 +9,8 @@ nav a {
 }
 
 #logo {
-    padding-left: 100px;
-    padding-right: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-block: 1%;
 }
 
@@ -72,6 +72,10 @@ nav a {
 body p, a, h1 {
     font-family: 'Montserrat';
     color: white;
+}
+
+#right-hamburger {
+    margin-top:3%
 }
 
 body {
