@@ -2,6 +2,7 @@
     background-color: #000000;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+    max-height: 25vh;
 }
 
 nav a {
@@ -11,12 +12,20 @@ nav a {
 #logo {
     padding-left: 1vw;
     padding-right: 1vw;
-    padding-block: 1%;
+    padding-block: 0.5%;
 }
 
-#right-hamburger {
-    margin-right: 50px;
-    margin-left: 100px;
+#logo-image {
+    max-height: 10vh;
+}
+
+/*#right-hamburger {*/
+/*    margin-right: 50px;*/
+/*    margin-left: 100px;*/
+/*}*/
+
+#toggler-hamburger {
+    max-height: 10vh;
 }
 
 #main {
@@ -38,22 +47,27 @@ nav a {
 }
 
 #Открывай {
-    font-size: 70px;
+    /*font-size: 70px;*/
+    font-size: 8vh;
     font-family: 'Playfair Display';
     margin-bottom: 5%;
 }
 
 #Еженедельный {
-    font-size: 45px;
+    font-size: 4vh;
+    /*font-size: 45px;*/
     width: 80%;
-    line-height: 50px;
+    /*line-height: 50px;*/
+    line-height: 5vh;
 }
 
+
 #Реклама p {
-    font-size: 40px;
+    /*font-size: 40px;*/
+    font-size: 5vh;
     background-color: black;
-    padding-block: 100px;
-    padding-inline: 75px;
+    padding-block: 10%;
+    padding-inline: 5%;
     border-radius: 25px !important;
 }
 
