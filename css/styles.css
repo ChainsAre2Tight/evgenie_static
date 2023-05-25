@@ -46,7 +46,7 @@ nav a {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-aspect-ratio: 8/5) {
     #main {
         flex-direction: column;
     }
