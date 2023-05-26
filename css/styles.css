@@ -25,6 +25,7 @@ nav a {
 
 #toggler-hamburger {
     max-height: 10vh;
+    min-height: 30px;
 }
 
 #main {
